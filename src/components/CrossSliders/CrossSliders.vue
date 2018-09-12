@@ -44,6 +44,9 @@
 				}
 			}
 		},
+		methods:{
+		
+		},
 		components: {
 			slider
 		}

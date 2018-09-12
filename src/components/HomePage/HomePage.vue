@@ -1,6 +1,7 @@
 <template>
 	<div>
 		<router-view ></router-view>
+		 <router-view name='left'></router-view>
 		<navs></navs>
 	</div>
 </template>

@@ -5,7 +5,6 @@
 		<list-nav></list-nav>
 		<cross-sliders></cross-sliders>
 		<list-item></list-item>
-		<list-item></list-item>
 	</div>
 </template>
 

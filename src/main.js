@@ -8,10 +8,12 @@ import 'element-ui/lib/theme-chalk/index.css';
 import "./baseConfig/reset.less"
 import "./baseConfig/base.less"
 import "../static/iconfont.css"
+import global from "./baseConfig/confige"
 import store from './store'
 
 Vue.config.productionTip = false;
 Vue.use(ElementUI);
+Vue.prototype.GLOBAL = global;
 
 /* eslint-disable no-new */
 new Vue({
