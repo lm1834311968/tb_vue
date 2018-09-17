@@ -18,13 +18,13 @@ export default new Router({
 			path: '/ViewPage',
 			component:ViewPage,
 			children:[{
-				path: '',
+				path: '/',
 				components:{
 					default:HomePage,
-					left:HomePage
+					subview:HomePage
 				},
 				children: [{
-					path: '',
+					path: '/',
 					redirect: 'HomeList'
 				}, {
 					path: 'HomeList',

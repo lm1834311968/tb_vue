@@ -1,3 +1,3 @@
-export const showLayer = state => state.showLayer
+export const subViewShow = state => state.subViewShow
 
 export const pageDetail = state => state.pageDetail

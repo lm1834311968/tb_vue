@@ -1,11 +1,8 @@
-const mutation={
-	showLayer(state,showLayer){
-		state.showLayer=showLayer
-	},
-	pageDetail(state,pageDetail){
-		state.pageDetail=pageDetail
+const mutations={
+	subViewShow(state,subViewShow){
+		state.subViewShow=subViewShow
 	}
 	
 }
 
-export default mutation
+export default mutations
